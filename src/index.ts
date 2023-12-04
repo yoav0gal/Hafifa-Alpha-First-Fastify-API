@@ -4,7 +4,7 @@ import { TypeBoxTypeProvider } from "@fastify/type-provider-typebox";
 const server = fastify().withTypeProvider<TypeBoxTypeProvider>();
 
 server.get("/", async (request, reply) => {
-  return "Hello hey! 👋";
+  return "Hello Alpha! 👋";
 });
 
 server.listen({ port: 3000 }, (err, address) => {
