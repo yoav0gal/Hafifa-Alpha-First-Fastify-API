@@ -60,4 +60,4 @@ const leaor: AlphaMember = {
   birthDate: new Date("2000-07-22"),
   quoteForTheNechfaf: "kabanos who??",
 };
-export const members: AlphaMember[] = [yoav, ishay, omri, savion, sivan, leaor];
+export let members: AlphaMember[] = [yoav, ishay, omri, savion, sivan, leaor];
